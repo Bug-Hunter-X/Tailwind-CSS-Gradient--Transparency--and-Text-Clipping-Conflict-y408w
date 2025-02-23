@@ -1,0 +1,1 @@
+This repository demonstrates a bug in Tailwind CSS where combining specific styling classes (`bg-gradient-to-r`, `text-transparent`, `bg-clip-text`) results in unexpected behavior. The classes work independently, but applying them together renders the styles ineffective. The solution file offers a workaround.
