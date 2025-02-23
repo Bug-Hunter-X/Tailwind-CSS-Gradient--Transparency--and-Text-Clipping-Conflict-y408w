@@ -1,0 +1,7 @@
+To resolve this issue, separate the gradient and text elements. Create a container element with the gradient background and place a second element inside with the transparent text and text clipping. This separates the conflicting styles:
+
+```html
+<div class="bg-gradient-to-r from-blue-500 to-purple-500 p-4">
+  <span class="text-transparent bg-clip-text bg-white">Example Text</span>
+</div>
+```
